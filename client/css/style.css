@@ -5,15 +5,12 @@ body {
 	font-family: 'Helvetica Neue Light', arial, serif;
 	font-size: 13px;
 	color: #333;
-	background-color: #ddd;
-	xbackground-image: -webkit-gradient(radial, 265 118, 456, 147 0, 29, from(#DDDDDD), to(#f3f3f3));
+	background-color: #fafafa;
 
 	padding-left: 10px;
 
 	xheight: 1400px;
 	xwidth: 2000px;
-
-
 
 	user-select: none;
 	-o-user-select:none;
@@ -21,13 +18,11 @@ body {
 	-khtml-user-select: none;
 	-webkit-user-select: none;
 
-	background-image: url('bg/concrete_wall_2_2.png');
-
 }
 
 #board {
 	position: relative;
-	background-color: #dcd5d1;
+	background-color: #FFFFFF;
 
 	height: 100%;
 	xwidth: 980px;
@@ -67,7 +62,6 @@ body {
 	position: absolute;
 	display: inline;
 	opacity: 0.035;
-	background-image: url('scribbles2.png');
 }
 
 
@@ -156,9 +150,9 @@ h1, h1 a {
 }
 
 h2 {
-	font-family: 'Rock Salt', "Arial Rounded MT Bold", arial, serif;
-	color: #5c9db4;
-	font-size: 18px;
+	font-family: "Helvetica", arial, serif;
+	color: #19ba98;
+	font-size: 20px;
 	}
 
 .bottom-icon {
@@ -210,7 +204,7 @@ h2 {
 }
 
 .buttons {
-	float: left;
+	float: center;
 }
 
 .names {
@@ -450,8 +444,8 @@ xopacity: .5;
 
 /* Stuff for landing page */
 h1.home {
-	font-size: 100px;
-	font-family: 'Covered By Your Grace',"Arial Rounded MT Bold", arial, serif;
+	font-size: 80px;
+	font-family: "Helvetica", arial, serif;
 	color: #19ba98;
 	opacity: .8;
 	padding: 0;
@@ -462,7 +456,7 @@ h1.home {
 
 .home {
 	font-size: 30px;
-	font-family: 'Covered By Your Grace',"Arial Rounded MT Bold", arial, serif;
+	font-family: "Helvetica", arial, serif;
 	color: #19ba98;
 	color: #222;
 	opacity: 1;
@@ -495,7 +489,7 @@ input.text {
     margin-bottom: 10px;
     border: none;
 	font-size: 30px;
-	font-family: 'Covered By Your Grace',"Arial Rounded MT Bold", arial, serif;
+	font-family: "Helvetica", arial, serif;
 	color: #5c9db4;
 	text-align: center;
 	border-bottom: dashed 3px #19ba98;
@@ -507,18 +501,24 @@ input:hover {
 }
 
 #go {
-	 background: none;
-    margin-bottom: 10px;
-    border: none;
-	font-size: 40px;
-	font-family: 'Covered By Your Grace',"Arial Rounded MT Bold", arial, serif;
-	color: #19ba98;
-	color: black;
+	border-radius: 5px;
+	background: #fefefe;
+	padding: 10px;
 
-	xborder: solid 1px;
+	border-style: solid;
+	border-width: thin;
+	border-color: darkgrey;
 
+	width: 200px;
 
+	cursor: pointer;
 
+	font-size: 20px;
+	font-family: "Helvetica", arial, serif;
+}
+
+#go:hover {
+	border-color: gray;
 }
 
 .notice-bar {
